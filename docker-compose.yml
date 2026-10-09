@@ -2,6 +2,8 @@ services:
   rss-notifier:
     build: .
     container_name: rss-notifier
+    # execute the command - id <username>
+    # to get the uid and guid of the user and update below 
     user: "1000:1000"
     restart: "no"
     volumes:
