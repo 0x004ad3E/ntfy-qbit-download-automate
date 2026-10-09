@@ -35,7 +35,7 @@ Give a json file containing one or more entries like this
   * qbittorrent url - QBIT_URL="192.168.50.93:6520"
   * The program runs and exits.
   * So create a cron job to run it on schedule.
-  * Note check the repository [1tamilmv-rss-parser](https://github.com/0x004ad3E/1tamilmv-rss-parser) for code to get json file
+  * Note: check the repository [1tamilmv-rss-parser](https://github.com/0x004ad3E/1tamilmv-rss-parser) for code to get json file
 
 To run
 
