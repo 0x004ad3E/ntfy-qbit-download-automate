@@ -209,7 +209,7 @@ def notify_entry(entry: dict) -> bool:
         "actions": [
             {
                 "action": "http",
-                "label": "Service",
+                "label": "Download",
                 "url": f"http://{QBIT_URL}/api/v2/torrents/add",
                 "method": "POST",
                 "headers": {
