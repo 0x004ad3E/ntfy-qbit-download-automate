@@ -2,8 +2,8 @@
 docker compose for sending nfty notification and automatic download from qbitorrent
 
 Prequisites:
-* ntfy account or self hosting
-* qbittorrent running on local network
+* ntfy
+* qbittorrent
 
 
 --------------------------------------------
