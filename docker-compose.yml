@@ -1,0 +1,8 @@
+services:
+  rss-notifier:
+    build: .
+    container_name: rss-notifier
+    user: "1000:1000"
+    restart: "no"
+    volumes:
+      - ./output:/output
