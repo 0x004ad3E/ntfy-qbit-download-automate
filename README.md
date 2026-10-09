@@ -5,6 +5,8 @@ Prequisites:
 * ntfy account or self hosting
 * qbittorrent running on local network
 
+
+--------------------------------------------
 Give a json file containing one or more entries like this
   {
     "feed": "http://example.com",
