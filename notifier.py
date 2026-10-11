@@ -2,6 +2,7 @@ import json
 import logging
 import time
 import base64
+import os
 from pathlib import Path
 from urllib.parse import urlencode
 
@@ -16,21 +17,21 @@ OUTPUT_DIR = Path("/output")
 JSON_FILE = OUTPUT_DIR / "results.json"
 
 # Your ntfy server
-NTFY_SERVER = "https://ntfy.sh"
+NTFY_SERVER=os.environ.get("NTFY_SERVER", "your-dummy-value")
 
 # Normal notification topic
-NOTIFY_TOPIC = "scraper"
+NOTIFY_TOPIC = os.environ.get("NOTIFY_TOPIC", "your-dummy-value")
 
 # Topic receiving the Download button command
-COMMAND_TOPIC = "scraper-command"
+COMMAND_TOPIC = os.environ.get("COMMAND_TOPIC", "your-dummy-value")
 
 # Delay between notifications, in seconds
 PUBLISH_DELAY = 3
 
-NTFY_TOKEN = "tk_werwerdsfsfsdf"
-QBIT_API_KEY = "qbt_wrwer23423sfsd"
+NTFY_TOKEN = os.environ.get("NTFY_TOKEN", "your-dummy-value")
+QBIT_API_KEY = os.environ.get("QBIT_API_KEY", "your-dummy-value")
+QBIT_URL=os.environ.get("QBIT_URL", "your-dummy-value")
 
-QBIT_URL="192.168.50.93:6520"
 # ============================================================
 # Logging
 # ============================================================
