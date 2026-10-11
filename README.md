@@ -8,6 +8,8 @@ Prequisites:
 
 --------------------------------------------
 Give a json file containing one or more entries like this
+
+```json
   {
     "feed": "http://example.com",
     "title": "Example video",
@@ -20,6 +22,7 @@ Give a json file containing one or more entries like this
     ],
     "tags": "movies"
   }
+  ```
 
   This program will parse the json file and send notifications to the ntfy channel.
   When the notification is received, clicking download will then cause qbittorrent to download the magnet link.
