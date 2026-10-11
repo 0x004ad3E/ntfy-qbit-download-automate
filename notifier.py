@@ -25,12 +25,12 @@ NOTIFY_TOPIC = os.environ.get("NOTIFY_TOPIC", "your-dummy-value")
 # Topic receiving the Download button command
 COMMAND_TOPIC = os.environ.get("COMMAND_TOPIC", "your-dummy-value")
 
-# Delay between notifications, in seconds
-PUBLISH_DELAY = 3
-
 NTFY_TOKEN = os.environ.get("NTFY_TOKEN", "your-dummy-value")
 QBIT_API_KEY = os.environ.get("QBIT_API_KEY", "your-dummy-value")
 QBIT_URL=os.environ.get("QBIT_URL", "your-dummy-value")
+
+# Delay between notifications, in seconds
+PUBLISH_DELAY = 3
 
 # ============================================================
 # Logging
