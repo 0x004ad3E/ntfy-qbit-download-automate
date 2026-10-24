@@ -8,3 +8,5 @@ services:
     restart: "no"
     volumes:
       - ./output:/output
+    env_file:
+      - .env
