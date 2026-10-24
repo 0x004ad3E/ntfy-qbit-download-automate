@@ -31,7 +31,7 @@ Give a json file containing one or more entries like this
   
   * Folder where the json file is located - OUTPUT_DIR = Path("/output")
   * Name of the json file - JSON_FILE = OUTPUT_DIR / "results.json"
-  * Set env var or update variables for the following
+  * Set environment variables in .env file or update variables for the following in the python code
     * NTFY_SERVER=os.environ.get("NTFY_SERVER", "your-dummy-value")
     * NOTIFY_TOPIC = os.environ.get("NOTIFY_TOPIC", "your-dummy-value")
     * COMMAND_TOPIC = os.environ.get("COMMAND_TOPIC", "your-dummy-value")
