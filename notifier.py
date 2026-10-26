@@ -193,6 +193,7 @@ def notify_entry(entry: dict) -> bool:
 
     service_body = urlencode({
     "urls": magnet,
+    "category": tags,
     })
 
     payload = {
